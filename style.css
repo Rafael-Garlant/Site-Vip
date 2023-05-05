@@ -77,7 +77,6 @@ ul{
 /*##############IMAGENS##############*/
 
 #container{
-  position: absolute;
   display: flex;
 }
 
@@ -91,7 +90,7 @@ h1{
 
 .img_carros{
 
-  position: relative;
+ 
 
   display: flex;
 
@@ -143,8 +142,7 @@ aside{
  /*##############RANKS###############*/
 
 .final{
-  position: absolute;
-  padding-top: 600px;
+  
 }
 
 h2{
