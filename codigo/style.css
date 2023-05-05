@@ -86,6 +86,7 @@ h1{
 }
 
 .img_carros{
+
   position: relative;
 
   display: flex;
@@ -93,8 +94,6 @@ h1{
   flex-wrap: wrap;
 
   justify-content: space-around;
-
-  text-decoration: none;
 
   list-style: none;
 }
@@ -122,16 +121,13 @@ h1{
 
 }
 
-aside li{
-
-}
 .relative{
   position: relative;
   display: flex;
 
 }
 
-aside ul {
+aside > ul {
   margin: 0px;
   list-style:none;
 
@@ -148,15 +144,23 @@ aside ul {
 
  /*##############RANKS###############*/
 
-.imagens{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.final{
+  position: absolute;
+  padding-top: 600px;
 }
 
-.imagens img{
-  padding: 0px 100px 0px 100px;
+h2{
+  font-size: 2em;
+  padding-bottom: 80px;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
+
+footer{
+  background-color: #242020;
+  color: white;
+}
+
  /*background-color: rgb(255, 255, 255);
   border-radius: 10px;
   margin: 1px 1px 130px 1px*/
