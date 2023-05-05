@@ -40,8 +40,8 @@ body{
   border-radius: 10px;
 }
 .menu li a:hover{
-  background-color: #444141;
-  color: rgba(221, 207, 207, 0.907);
+  background-color: #847373;
+  color: rgba(255, 255, 255, 0.907);
 
   text-decoration: underline;
 
@@ -53,8 +53,6 @@ body{
 .primeiro{
    
    background-image: linear-gradient(to bottom, rgb(32, 31, 31), rgb(57, 53, 53));
-   
-   
 }
 .quebradapng{
   padding: 10px 0px 10px 46px;
@@ -72,6 +70,13 @@ a{
     
 }
 
+/*##############IMAGENS##############*/
+
+#container{
+  position: absolute;
+  display: flex;
+}
+
 h1{
    
     padding-top: 50px;
@@ -80,33 +85,54 @@ h1{
     text-align: center;
 }
 
-.container{
+.img_carros{
+  position: relative;
+
   display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+  text-decoration: none;
+
+  list-style: none;
 }
 
-.relative{
-  position: relative;
+
+.img_carros li{
+  
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+ border: 1px solid white;
+ border-radius: 10px;
+
+}
+.img_carros p{
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  
 }
 
 .carros{
-    flex: wrap;
+  border-radius: 10px 10px 0px 0px;
+  width: 150px;
+  
 
-    left: 200px;
-    top: 10px;
-
-
-    justify-content: space-evenly;
-    width: 150px;
-    height: 100px; 
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 1px 1px 130px 1px
-    
 }
 
+aside li{
 
-.informacoes2{
+}
+.relative{
+  position: relative;
+  display: flex;
+
+}
+
+aside ul {
+  margin: 0px;
   list-style:none;
 
   font-size: 20px;
@@ -117,53 +143,21 @@ h1{
   width: bottom 50%;
   border-width: 10% 10%; /* borda à esquerda e à direita */
 
-    line-height: 40px;
+    line-height: 50px;
 }
-#container {
-    height: 10px;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    justify-content: flex-end;
-    justify-content: space-around;
-  }
 
-#container figcaption {
-    position: absolute;
-    top: 145px;
-    right: px;
-    left: 30px;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.987);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
-  }
+ /*##############RANKS###############*/
 
-  p{
-    height: 174px;
-    font-size: small;
-    background-color: black;
-    color: rgba(255, 255, 255, 0.423);
-  }
-  
-  .tresprimeiras{
-    text-align: center;
-    padding-bottom: 40px;
-    justify-content: flex-end;
-    justify-content: space-around;
-  }
-  .duasultimas{
-    text-align: center; 
-    padding-bottom: 40px;
-    p
-  }
-  #prata{
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+.imagens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  #platina{
-    padding-right: 90px;
-  }
- 
-  
-
+.imagens img{
+  padding: 0px 100px 0px 100px;
+}
+ /*background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 1px 1px 130px 1px*/
+  /**/
